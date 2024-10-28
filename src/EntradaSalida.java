@@ -2,18 +2,18 @@ import java.util.Scanner;
 
 public class EntradaSalida {
     public static void main(String[] args) {
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         String texto ="";
         int contador=0;
 
         //entrada de datos 3 veces
         while (contador <3) {
             System.out.println("escribe algo");
-            texto += imput.nextLine()+"\n";
+            texto += input.nextLine()+"\n";
             contador++;
         }
         //cerramos el scanner
-        imput.close();
+        input.close();
 
 
         //salida de datos
